@@ -41,7 +41,7 @@ body{
 /* ----------------------------------------------------------------------------------- */
 /* navbar */
 nav{
-    background-color: var(--nav-color);
+     background-color: var(--hover-color); 
 } 
 
 nav .icon .icon-shopping{
@@ -56,7 +56,22 @@ nav .navbar-nav .nav-item .nav-link.active,
 nav .navbar-nav .nav-item .nav-link:hover{
     color: var(--blueviolet-color);
 }
+/* ---------------------------------------------------------------------------------------- */
+/* landing */
+.landing{
+    background-color: var(--bg-color);
+    min-height: calc(100vh - 70px);
+}
 
+.landing h2,
+.landing h2 span{
+    font-size: 3rem;
+}
+
+
+.landing h2 span{
+    color: var(--span-color);
+}
 
 
 
