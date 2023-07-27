@@ -1,31 +1,33 @@
 :root{
     --main-color: #f0932b ;
-    --secondary-color: #8E7DEC;
+    --blueviolet-color: #8E7DEC;
     --heading-color: #140101;
     --bg-color: #00113F;
+    --body-color: #FFF7F3;
     --span-color: #FA9435;
-    --hover-color: #d17e16;
+    --hover-color: #fff;
     --paragraph-color:  #777;
-    --body-color: #FDF1FC;
+    --nav-color: #FDF1FC;
     --main-transition: .5s;
 }
 
-img{
-    max-width: 100%;
+.btn{
+    width: 5rem;
+}
+
+.blueviolet-btn{
+    background-color: var(--blueviolet-color);
+    transition: var(--main-transition);
+    width: 5rem;
+}
+
+.blueviolet-btn:hover{
+    background-color: #6148ea;
 }
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
     background-color: var(--body-color);
-}
-
-.main-btn{
-    background-color: var(--main-color);
-    transition: var(--main-transition);
-}
-
-.main-btn:hover{
-    background-color: var(--hover-color);
 }
 
 .section-heading svg{
@@ -37,3 +39,25 @@ body{
 
 }
 /* ----------------------------------------------------------------------------------- */
+/* navbar */
+nav{
+    background-color: var(--nav-color);
+} 
+
+nav .icon .icon-shopping{
+   color: var(--blueviolet-color);
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: var(--heading-color);
+}
+
+nav .navbar-nav .nav-item .nav-link.active,
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: var(--blueviolet-color);
+}
+
+
+
+
+
