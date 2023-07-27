@@ -73,6 +73,8 @@ nav .navbar-nav .nav-item .nav-link:hover{
     color: var(--span-color);
 }
 
-
+.landing p{
+    color: var(--paragraph-color);
+}
 
 
