@@ -123,3 +123,40 @@ nav .navbar-nav .nav-item .nav-link:hover{
     color: var(--span-color);
 }
 
+/* ------------------------------------------------------------------------------------------------------- */
+/* Courses */
+.courses .shuffle li{
+    padding: 1rem;
+    cursor: pointer;
+    color: var(--heading-color);
+    transition: var(--main-transition);
+}
+
+.courses .shuffle li:hover,
+.courses .shuffle li.active{
+    color: var(--blueviolet-color);
+}
+
+.courses .stars-icon li{
+    color: var(--span-color);
+}
+
+.courses .stars-icon li:nth-child(7){
+    color: var(--heading-color);
+}
+
+.courses .info-icon li{
+    padding: .4rem;
+    color: var(--paragraph-color);
+}
+
+.courses .stars-icon li{
+    padding: .1rem;
+    font-size: .5rem;
+}
+
+
+
+
+
+
