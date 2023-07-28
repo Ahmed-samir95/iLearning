@@ -18,7 +18,7 @@
 .blueviolet-btn{
     background-color: var(--blueviolet-color);
     transition: var(--main-transition);
-    width: 5rem;
+    width: 6rem;
 }
 
 .blueviolet-btn:hover{
@@ -111,8 +111,15 @@ nav .navbar-nav .nav-item .nav-link:hover{
    color: var(--paragraph-color);
 }
 
+.offering .offering-item > p{
+  color: var(--paragraph-color);
+}
 
+.offering .offering-item :nth-child(4){
+    color: var(--heading-color);
+}
 
-
-
+.offering .offering-item :nth-child(4) svg{
+    color: var(--span-color);
+}
 
