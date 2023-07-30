@@ -12,13 +12,13 @@
 }
 
 .btn{
-    width: 5rem;
+    width: 8rem;
 }
 
 .blueviolet-btn{
     background-color: var(--blueviolet-color);
     transition: var(--main-transition);
-    width: 6rem;
+    width: 8rem;
 }
 
 .blueviolet-btn:hover{
@@ -148,14 +148,31 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .courses .info-icon li{
     padding: .4rem;
     color: var(--paragraph-color);
+    font-size: .7rem;
 }
 
 .courses .stars-icon li{
     padding: .1rem;
     font-size: .5rem;
 }
+/* ------------------------------------------------------------------------------------------ */
+/* student */
+.student{
+    background-color: var(--bg-color);
+}
+
+.student svg{
+    color: var(--span-color);
+}
 
 
+.student h2{
+    color: var(--hover-color);
+}
+
+.student p{
+    color: var(--paragraph-color);
+}
 
 
 
