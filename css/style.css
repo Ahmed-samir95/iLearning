@@ -178,13 +178,22 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .industry p{
     color: var(--paragraph-color);
 }
+/* -------------------------------------------------------------------------------- */
+/* about */
+.about svg{
+    color: var(--span-color);
+}
 
+.about p{
+    color: var(--paragraph-color);
+}
 
-
-
-
-
-
+.about .about-item{
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
 
 
 
