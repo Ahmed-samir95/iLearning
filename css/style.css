@@ -194,6 +194,30 @@ nav .navbar-nav .nav-item .nav-link:hover{
     background-color: white;
     box-shadow: 0 0 10px rgba(255, 255, 255, 1);
 }
+/* ---------------------------------------------------------------------- */
+/* blog */
+.blog ul li{
+    padding: .2rem;
+    font-size: .6rem;
+}
+
+.blog p{
+    color: var(--paragraph-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
