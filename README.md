@@ -18,3 +18,22 @@
 6- Contact Us
 
 <p>We will start working on the first page, which is home</p>
+
+<h2>Landing page content</h2>
+<ul>
+  <li>navbar & header</li>
+  <li>Categories</li>
+  <li>Courses</li>
+  <li>student</li>
+  <li>Industry </li>
+  <li>Choose</li>
+  <li>Blog and Articles</li>
+  <li>Footer</li>
+</ul>
+
+
+
+
+
+
+
