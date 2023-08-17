@@ -73,11 +73,15 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .about-box img{
     height: 11rem;
 }
+/* ---------------------------------------------------------------------------------------------- */
+/* about-desc */
+.about-desc p{
+    color: var(--paragraph-color);
+}
 
-
-
-
-
+.about-desc svg{
+    color: var(--main-color);
+}
 
 
 

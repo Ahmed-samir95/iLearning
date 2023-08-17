@@ -252,7 +252,7 @@ nav .navbar-nav .nav-item .nav-link:hover{
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 1rem;
     cursor: pointer;
     display: none;
