@@ -1,0 +1,85 @@
+:root{
+    --main-color: #f0932b ;
+    --blueviolet-color: #8E7DEC;
+    --heading-color: #140101;
+    --bg-color: #00113F;
+    --body-color: #cdacd1;
+    --span-color: #FA9435;
+    --hover-color: #fff;
+    --paragraph-color:  #777;
+    --nav-color: #FDF1FC;
+    --main-transition: .5s;
+}
+
+.btn{
+    width: 8rem;
+}
+
+.blueviolet-btn{
+    background-color: var(--blueviolet-color);
+    transition: var(--main-transition);
+    width: 8rem;
+}
+
+.blueviolet-btn:hover{
+    background-color: #6148ea;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.section-heading-title{
+    color: var(--body-color);
+    background-color: #FDF1FC;
+    
+
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+/* navbar */
+nav{
+     background-color: var(--hover-color); 
+} 
+
+nav .icon .icon-shopping{
+   color: var(--blueviolet-color);
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: var(--heading-color);
+}
+
+nav .navbar-nav .nav-item .nav-link.active,
+nav .navbar-nav .nav-item .nav-link:hover{
+    color: var(--blueviolet-color);
+}
+/* ---------------------------------------------------------------------------------------- */
+/* about-box */
+.about-box{
+    background-color: var(--body-color);
+}
+
+.about-box .about-title{
+    width: 17rem;
+}
+@media(max-width: 767px){
+    .about-box .about-title{
+        width: 13rem;
+    }
+}
+
+.about-box img{
+    height: 11rem;
+}
+
+
+
+
+
+
+
+
+
+
