@@ -82,8 +82,10 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .about-desc svg{
     color: var(--main-color);
 }
-
-
-
+/* -------------------------------------------------------------------------------------------- */
+/* mission */
+.mission p{
+    color: var(--paragraph-color);
+}
 
 
