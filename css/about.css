@@ -87,5 +87,22 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .mission p{
     color: var(--paragraph-color);
 }
+/* ------------------------------------------------------------------------------------------ */
+/* offer */
+
+.offer svg{
+    color: var(--main-color);
+}
+
+.offer p{
+    color: var(--paragraph-color);
+}
+
+
+
+
+
+
+
 
 
