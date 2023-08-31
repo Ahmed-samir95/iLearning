@@ -117,15 +117,17 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .footer li:hover{
   color: var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------------------------ */
+/* btn to up */
+.btn-up{
+  background-color: var(--blueviolet-color);
+  color: var(--hover-color);
+  border: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: none;
+}
