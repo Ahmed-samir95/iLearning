@@ -75,8 +75,62 @@ nav .navbar-nav .nav-item .nav-link:hover{
   height: 11rem;
 }
 
+.box-item h4{
+  color: var(--blueviolet-color);
+}
+/* ------------------------------------------------------------------------- */
+/* footer */
+.footer{
+  background-color: var(--bg-color);
+}
+
+.footer p{
+  color: var(--paragraph-color);
+}
+
+.footer li svg{
+  transition: var(--main-transition); 
+}
+
+.footer li svg:hover{
+  transform: rotate(360deg);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.footer .row .footer-logo h2{
+  font-size: 2rem;
+}
+
+.footer .row h2{
+  font-size: 1.3rem;
+}
+
+.footer li{
+  color: var(--paragraph-color);
+  cursor: pointer;
+  padding-bottom: 1rem;
+  transition: var(--main-transition);
+}
 
 
+.footer li:hover{
+  color: var(--main-color);
+}
+/* ------------------------------------------------------------------------------------ */
+/* btn to up */
+.btn-up{
+  background-color: var(--blueviolet-color);
+  color: var(--hover-color);
+  border: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: none;
+}
 
 
 
